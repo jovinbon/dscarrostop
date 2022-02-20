@@ -1,0 +1,71 @@
+.main-nav {
+    padding-left: 10px;
+    min-height: 70px;
+    background-color: #F78B00;
+}
+
+.button-color{
+    background: linear-gradient(0deg, #00285F, #00285F), #00285F;
+}
+
+.nav-logo-text, .nav-logo-text:hover {
+    color: #00285F;
+    font-size: 24px;
+    font-family: Roboto;
+}
+
+.main-menu {
+    display: flex;
+    font-size: 18px;
+    width: 380px;
+    justify-content: right;
+}
+
+.main-menu li {
+    padding-right: 50px;
+}
+
+.main-menu li a{
+    color: #00285F;
+}
+
+.main-menu li a:hover {
+    color: #00285F;
+}
+
+.main-menu a.active {
+    color: #00285F;
+    font-weight: bold;
+}
+
+@media (min-width: 768px){
+    .main-nav {
+        padding-left: 35px;
+    }
+
+    .main-menu {
+        width: 540px;
+    }
+}
+
+@media (min-width: 992px){
+    .main-menu {
+        width: 660px;
+    }
+}
+
+@media (min-width: 1200px){
+    .main-menu {
+        width: 860px;
+    }
+}
+
+@media (min-width: 1400px){
+    .main-menu {
+        width: 978px;
+    }
+
+    .nav-logo-text h4 {
+        margin-left: 265px;
+    }
+}
